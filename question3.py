@@ -1,0 +1,6 @@
+x = int(input("Enter value of x: "))
+y = int(input("Enter value of y: "))
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+answer = (((x + (1 / y))**a) * ((x - (1 / y))**b)) / (((y + (1 / x))**a) * ((y - (1 / x))**b))
+print(answer)
